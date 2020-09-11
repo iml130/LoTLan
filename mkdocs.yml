@@ -1,0 +1,31 @@
+site_name: LoTLan
+site_description: LoTLan - A declarative DSL to describe intralogistic materialflow transport logic
+docs_dir: docs/
+site_dir: html
+markdown_extensions: [toc, fenced_code]
+use_directory_urls: true 
+theme:
+    name: readthedocs
+
+nav:    
+    - Home: index.md
+    - Getting Started: start.md
+    - LoTLan: 
+        - Introduction: lotlan/introduction.md 
+        - Formal Grammar: lotlan/formal-grammar.md 
+        - Transport: lotlan/transport.md
+        - Primitives: lotlan/primitives.md
+        - Instances: lotlan/instances.md
+        - TransportOrderSteps: lotlan/transportordersteps.md
+        - Tasks: lotlan/tasks.md
+        - Comments: lotlan/comments.md
+        - Allowed Characters: lotlan/allowedchars.md
+    - Transport Examples: 
+        - Introduction: examples/introduction.md
+        - Hello Transport: examples/hello-transport.md
+        - Manual Loading/Unloading: examples/manual-loading-unloading.md
+        - Concatenation: examples/concatenation.md
+        - Infinite Loop: examples/infinite-loop.md
+        - TriggeredBy: examples/triggered-by.md
+        - FinishedBy: examples/finished-by.md
+        - Logical Operation: examples/logical-operation.md
