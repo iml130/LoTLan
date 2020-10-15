@@ -9,10 +9,9 @@ In our context a materialflow represents a transport, carrying goods from one lo
 
 <center><img src="docs/img/LoTLan.png" alt="LoTLan Logo" width="200"/><br />
 Figure 1: Logo of LoTLan.
-
 </center>
 
-
+Official :books: [Documentation](https://lotlan.readthedocs.io).
 
 ## Example HelloTransport
 
@@ -59,7 +58,7 @@ LoTLan also supports few more features next to a simple transportation:
 - Constraints definition
 
 
-Further examples can be found in the :books: [documentation](https://firos.readthedocs.io) . It also describes how an automatic or manual load/unload action can be done, utilizing events.
+Further examples can be found in the :books: [documentation](https://lotlan.readthedocs.io) . It also describes how an automatic or manual load/unload action can be done, utilizing events.
 
 
 # License
