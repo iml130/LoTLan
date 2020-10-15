@@ -1,11 +1,12 @@
 site_name: LoTLan
+site_url: https://lotlan.readthedocs.org
+repo_url: https://github.com/iml130/LoTLan.git
 site_description: LoTLan - A declarative DSL to describe intralogistic materialflow transport logic
 docs_dir: docs/
 site_dir: html
 markdown_extensions: [toc, fenced_code]
-use_directory_urls: true 
-theme:
-    name: readthedocs
+use_directory_urls: false 
+theme: readthedocs
 
 nav:    
     - Home: index.md
