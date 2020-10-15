@@ -29,3 +29,6 @@ nav:
         - TriggeredBy: examples/triggered-by.md
         - FinishedBy: examples/finished-by.md
         - Logical Operation: examples/logical-operation.md
+        - Constraints: examples/constraints.md
+        - Parameterizable Actions: examples/parameterizable-actions.md
+        - Time: examples/time-triggered-task.md
