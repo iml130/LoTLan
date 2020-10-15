@@ -1,5 +1,3 @@
-# Logical Operation
-
 In this example you can see how you would use multiple operators together to create more complex statements than in the previous examples.
 
 You can expect familiar syntax rules as in popular programing languages for all boolean expressions that can be used in the task language. The available boolean operators are *and*, *or* and *not*, with '!' representing the latter.

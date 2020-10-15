@@ -1,5 +1,3 @@
-# TriggeredBy
-
 This example uses the *TriggeredBy* statement to trigger the start of 'helloTransport' when the *Event* 'startHelloTransport' occured, in this case it is *True*.
 
 ```text

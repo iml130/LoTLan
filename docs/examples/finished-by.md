@@ -1,5 +1,3 @@
-# Finished By
-
 This example uses the *FinishedBy* statement to start when the *Event* 'finishHelloTransport' is *False*. If the expression in *FinishedBy* evaluates to *True*, the task is internally marked as finished and possible *OnDone* tasks can be started.
 
 ```text

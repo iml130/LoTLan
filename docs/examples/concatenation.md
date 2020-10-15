@@ -1,5 +1,3 @@
-# Concatenation
-
 This program starts with the 'helloTransport' task and transports from 'goodsPallet' to 'warehousePos1'. Once task 'helloTransport' is finished, the follow up task 'followUpTask' is triggered which starts a transport back from 'warehousePos1' to 'goodsPallet'.
 
 ```text

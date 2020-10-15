@@ -1,5 +1,3 @@
-# Parameterizable-Actions
-
 For this example we have to introduce an new scenario containing storage racks. In each location are two storage racks. The AGV drives between them and has to know its lift height and on which side to perform the load/unload operation. A *TransportOrderStep* can request the required parameters when its called in a task. In 'helloTransport' we pass in the parameter values: If the AGV arrives at location 'storageRack1', it should load goods from the right rack and has to lift it the *StorageRack* up to five meters. Once the AGV is at location 'storageRack2', the AGV should unload it goods on the left rack and lift it up to two meters.
 
 ```text

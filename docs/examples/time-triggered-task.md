@@ -1,5 +1,3 @@
-# Time Triggered Task
-
 In this example 'helloTransport' is triggered each morning at 8:30am. Keep in mind that timing has to be given in cron format, a known format in UNIX systems.
 
 ```text

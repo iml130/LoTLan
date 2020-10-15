@@ -1,5 +1,3 @@
-# Infinite Loop
-
 This program executes the 'helloTransport' task infinitely because it has itself as follow up task in *OnDone*.
 
 ```text

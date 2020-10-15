@@ -1,5 +1,3 @@
-# Hello Transport
-
 This simple task transports goods from 'goodsPallet' to 'warehousePos1'. Note that the physical name of an instance can be anything (a UUID, a numbers, a random name, ...).
 
 ```text

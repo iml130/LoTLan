@@ -1,5 +1,3 @@
-# Constraints
-
 In this example we define a constraint in task 'helloTransport'. *Constraints* can be used for example in scheduling to have an additional variable which flows into optimization. In this example the cost of a transport, e.g. by an AGV, needs to be less equal than 100.
 
 ```text
