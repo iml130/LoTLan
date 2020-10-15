@@ -5,7 +5,6 @@ The Logistic Task Language *(LoTLan)* is a simple, but powerful approach to desc
 In our context a materialflow represents a transport, carrying goods from one location (pickup) to another (delivery). 
 
 <center><img src="docs/img/LoTLan.png" alt="LoTLan Logo" width="200"/><br />
-
 Figure 1: Logo of LoTLan.
 
 </center>

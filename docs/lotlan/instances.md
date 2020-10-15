@@ -58,7 +58,7 @@ End
 
 Speaking of the example introduced in the [introduction](#Logistic-Task-Language), the formerly shown *Location* *Instances* each define a specific location inside the two areas.
 
-![Example instance](/img/instances.png)
+![Example instance](../img/instances.png)
 *Figure 2: Floor plan with Locations **goodsPallet** and **warehousePos1**
 
 The figure shows those locations inside the two areas *Warehouse* and *Production*.

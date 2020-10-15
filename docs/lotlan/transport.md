@@ -3,7 +3,7 @@ In a manufacturing facility either machines, humans or in a collaborated way are
 Based on this assumption we define an atomic operation for the transportation of goods for the intra logistics, as follows:
 
 <center>
-![Example introduction](/img/transport.png)
+![Example introduction](../img/transport.png)
 </center>
 
 <!-- $$ TransportOrder :=  2 \times TransportOrderStep $$ -->
@@ -12,20 +12,20 @@ A TransportOrder (TO) is a task, to move goods from a specific source to a dedic
 This does not affect the safety of a human who might operate within the same area. The AGV is responsible for safety. Humans are also able to override the system at any time. The TO consists of two TransportOrderSteps, defining the pickup and the delivery, as follows:
 
 <center>
-![Example introduction](/img/transportorderstep.png)
+![Example introduction](../img/transportorderstep.png)
 </center>
 <!-- $$ TransportOrderStep :=  MoveOrder \lor ActionOrder $$ -->
 
 A *TransportOrderStep* (TOS) is a fragment that contains a *MoveOrder or (logicially) an *ActionOrder* which helps to describe either the pickup or the delivery.  It is possible that a *MoveOrder* is not required. This would be the case for example, if the next pickup location is the same as the last delivery location. Therefore we need to describe the *MoveOrder* and an *ActionOrder* as described below.
 <center>
-![Example introduction](/img/moveorder.png)
+![Example introduction](../img/moveorder.png)
 </center>
 <!-- $$ MoveOrder :=  GoTo Position	$$ -->
 
 We define a *MoveOrder* by the movement of a current position/location to a specific destination, independently if it is a human or a AGV. 
 
 <center>
-![Example introduction](/img/actionorder.png)
+![Example introduction](../img/actionorder.png)
 </center>
 
 <!-- $$	ActionOrder :=  Load \veebar Unload	$$ -->

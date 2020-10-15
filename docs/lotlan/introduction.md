@@ -13,7 +13,7 @@ A *Primitive* is an abstract model for a series of similar objects. It is the bl
 
 The following documentation of *LoTLan* utilizes the example of a production hall that has an area for storing goods *- the Warehouse -* and an area for the manufacturing *- the Production*. To reduce the complexity only one AGV out of a possible lager fleet is used.
 
-![Example introduction](/img/introduction.png)
+![Example introduction]../img/introduction.png)
 *Figure 1: Example floor plan with AGV and production & warehouse area*
 
 This example in the figure above shown will be extended in the course of time to explain the individual building blocks of the *LoTLan*.

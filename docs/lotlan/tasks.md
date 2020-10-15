@@ -59,7 +59,7 @@ End
 
 In terms of the introduced example production hall this *Task* looks like depicted in the following figure.
 
-![Example task](/img/transportGoodsPallet.png)
+![Example task](../img/transportGoodsPallet.png)
 Figure 1: Floor plan with Task **TransportGoodsPallet**
 
 This *Task* *transportGoodsPallet* could be done by an AGV, that picks up a pallet **from** *goodsPallet* inside the production area and delivers it **to** the *warehousePos1* in the warehouse area.
@@ -86,7 +86,7 @@ In this example, the *Task* *transportGoodsPallet_2* triggered by the event if t
 
 In terms of the introduced example production hall this *Task* looks like depicted in the following figure.
 
-![Example trigger task](/img/transportGoodsPallet_2.png)
+![Example trigger task](../img/transportGoodsPallet_2.png)
 Figure 2: Floor plan with Task **transportGoodsPallet_2**
 
 This *Task* *transportGoodsPallet_2* could be done by an AGV, that picks up a pallet **from** *goodsPallet* inside the production area and delivers it **to** the *warehousePos1* in the warehouse area, when the button *buttonPallet* is pressed.
@@ -125,7 +125,7 @@ In this example another *Task* is introduced. This *Task* *refill* is the same t
 
 In terms of the introduced example production hall this *Task* looks like depicted in the following figure.
 
-![Example on done task](/img/transportGoodsPallet_3.png)
+![Example on done task](../img/transportGoodsPallet_3.png)
 Figure 3: Floor plan with Task **transportGoodsPallet_3** & **refill**
 
 This *Task* *transportGoodsPallet_3* could be done by an AGV, that picks up a pallet **From** *goodsPallet* inside the production area and delivers it **To** the *warehousePos1* in the warehouse area, when the button *buttonPallet* is pressed. After that the AGV executes the *Task* *refill* and so, it picks up a empty pallet **From** the *warehousePos1* and delivers it **To** the *goodsPallet* location.
