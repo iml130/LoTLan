@@ -1,3 +1,6 @@
+[![Documentation Status](https://readthedocs.org/projects/lotlan/badge/?version=latest)](https://lotlan.readthedocs.io/en/latest/?badge=latest)
+
+
 # LoTLan - A Logistc Task Language for Cyber-Physical Production Systems
 
 The Logistic Task Language *(LoTLan)* is a simple, but powerful approach to describe your intralogistic materialflow logic, focusing on cyber-phyiscal production systems (CPPS), in a declarativ manner. LoTLan describes of *what* needs to be done rather than *how* or *who*. Job shop schedulars handling the assignment of tasks to an executing entity.
@@ -56,7 +59,7 @@ LoTLan also supports few more features next to a simple transportation:
 - Constraints definition
 
 
-Further examples can be found in the documentation. It also describes how an automatic or manual load/unload action can be done, utilizing events.
+Further examples can be found in the :books: [documentation](https://firos.readthedocs.io) . It also describes how an automatic or manual load/unload action can be done, utilizing events.
 
 
 # License
