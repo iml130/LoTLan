@@ -11,7 +11,7 @@ In our context a materialflow represents a transport, carrying goods from one lo
 Figure 1: Logo of LoTLan.
 </center>
 
-Official :books: [Documentation](https://lotlan.readthedocs.io).
+## Official :books: [Documentation](https://lotlan.readthedocs.io).
 
 ## Example HelloTransport
 
