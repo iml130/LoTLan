@@ -18,6 +18,7 @@ Template Location
     name = ""
 End
 ```
+
 The attribute *type* represents the container (or bin) type placed on the location. The location self is named in the field *name*. These attributes can be later accessed inside the instances. 
 
 
@@ -45,6 +46,8 @@ An *Event*, has the same attributes as *Location*, a *name* and a *type*. The *t
 
 ## Time
 
+Our primitive time is linked to the UNIX cron job time. With this primitive it is able to schedule a task in the future. Of course, this 'time' value needs to be scheduled by a real schedular ;-)
+
 ```text
 Template Time
     timing = ""
@@ -52,18 +55,13 @@ End
 ```
 
 ## Constraint
-```text
+
+Constraints can help to declare a set of decision variables for feasible solutions. An example for an constraint is the costs of a transport or the maximal energy consumption. This needs also to be resolved by the schedular.
+
+```ini
 Template Constraint
     type = ""
 End
 ```
 
-*Event* and *Time* instances can be used in TriggeredBy or FinisheredBy statements.
-
-And finally the Constraint Primitive:
-
-
-*Constraint* instances can be used in Tasks
-
-
-Currently only the following 4 primitives are defined: `name`, `type`, `timing`, `constraint`
+*Event*- and *Time*-instances can be used in *TriggeredBy* and/or *FinisheredBy* statements while the *Constraint* is an generic item for a task.
