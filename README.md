@@ -58,7 +58,7 @@ LoTLan also supports few more features next to a simple transportation:
 - Constraints definition
 
 
-Further examples can be found in the :books: [documentation](https://lotlan.readthedocs.io) . It also describes how an automatic or manual load/unload action can be done, utilizing events.
+Further examples can be found in the :books: [documentation](https://lotlan.readthedocs.io). It also describes how an automatic or manual load/unload action can be done, utilizing events.
 
 
 # License
