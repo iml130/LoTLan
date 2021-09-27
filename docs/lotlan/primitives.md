@@ -58,7 +58,7 @@ End
 
 Constraints can help to declare a set of decision variables for feasible solutions. An example for an constraint is the costs of a transport or the maximal energy consumption. This needs also to be resolved by the schedular.
 
-```ini
+```text
 Template Constraint
     type = ""
 End
